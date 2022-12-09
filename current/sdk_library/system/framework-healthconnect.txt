@@ -1,0 +1,96 @@
+// Signature format: 2.0
+package android.healthconnect {
+
+  public class ApplicationInfoResponse {
+    method @NonNull public java.util.List<android.healthconnect.datatypes.AppInfo> getApplicationInfoList();
+  }
+
+  public class DeleteUsingFiltersRequest {
+    method @NonNull public java.util.Set<android.healthconnect.datatypes.DataOrigin> getDataOrigins();
+    method @NonNull public java.util.Set<java.lang.Class<? extends android.healthconnect.datatypes.Record>> getRecordTypes();
+    method @Nullable public android.healthconnect.TimeRangeFilter getTimeRangeFilter();
+  }
+
+  public static final class DeleteUsingFiltersRequest.Builder {
+    ctor public DeleteUsingFiltersRequest.Builder();
+    method @NonNull public android.healthconnect.DeleteUsingFiltersRequest.Builder addDataOrigin(@NonNull android.healthconnect.datatypes.DataOrigin);
+    method @NonNull public android.healthconnect.DeleteUsingFiltersRequest.Builder addRecordType(@NonNull Class<? extends android.healthconnect.datatypes.Record>);
+    method @NonNull public android.healthconnect.DeleteUsingFiltersRequest build();
+    method @NonNull public android.healthconnect.DeleteUsingFiltersRequest.Builder clearDataOrigins();
+    method @NonNull public android.healthconnect.DeleteUsingFiltersRequest.Builder clearRecordTypes();
+    method @NonNull public android.healthconnect.DeleteUsingFiltersRequest.Builder setTimeRangeFilter(@Nullable android.healthconnect.TimeRangeFilter);
+  }
+
+  public final class GetDataOriginPriorityOrderResponse {
+    method @NonNull public java.util.List<android.healthconnect.datatypes.DataOrigin> getDataOriginInPriorityOrder();
+  }
+
+  public class HealthConnectManager {
+    method public void deleteRecords(@NonNull android.healthconnect.DeleteUsingFiltersRequest, @NonNull java.util.concurrent.Executor, @NonNull android.os.OutcomeReceiver<java.lang.Void,android.healthconnect.HealthConnectException>);
+    method @NonNull @RequiresPermission(android.Manifest.permission.QUERY_ALL_PACKAGES) public void getContributorApplicationsInfo(@NonNull java.util.concurrent.Executor, @NonNull android.os.OutcomeReceiver<android.healthconnect.ApplicationInfoResponse,android.healthconnect.HealthConnectException>);
+    method @RequiresPermission(android.Manifest.permission.QUERY_ALL_PACKAGES) public void getDataOriginsInPriorityOrder(int, @NonNull java.util.concurrent.Executor, @NonNull android.os.OutcomeReceiver<android.healthconnect.GetDataOriginPriorityOrderResponse,android.healthconnect.HealthConnectException>);
+    method @NonNull public static java.util.Set<java.lang.String> getHealthPermissions(@NonNull android.content.Context);
+    method @IntRange(from=0, to=7300) public int getRecordRetentionPeriodInDays();
+    method public static boolean isHealthPermission(@NonNull android.content.Context, @NonNull String);
+    method public void setRecordRetentionPeriodInDays(@IntRange(from=0, to=7300) int, @NonNull java.util.concurrent.Executor, @NonNull android.os.OutcomeReceiver<java.lang.Void,android.healthconnect.HealthConnectException>);
+    method public void updateDataOriginPriorityOrder(@NonNull android.healthconnect.UpdateDataOriginPriorityOrderRequest, @NonNull java.util.concurrent.Executor, @NonNull android.os.OutcomeReceiver<java.lang.Void,android.healthconnect.HealthConnectException>);
+    field public static final String ACTION_HEALTH_HOME_SETTINGS = "android.healthconnect.action.HEALTH_HOME_SETTINGS";
+    field public static final String ACTION_MANAGE_HEALTH_PERMISSIONS = "android.healthconnect.action.MANAGE_HEALTH_PERMISSIONS";
+    field public static final String ACTION_MANAGE_HEALTH_PERMISSIONS_AND_DATA = "android.healthconnect.action.MANAGE_HEALTH_PERMISSIONS_AND_DATA";
+  }
+
+  public class HealthDataCategory {
+    field public static final int ACTIVITY = 1; // 0x1
+    field public static final int BODY_MEASUREMENTS = 2; // 0x2
+    field public static final int CYCLE_TRACKING = 3; // 0x3
+    field public static final int NUTRITION = 4; // 0x4
+    field public static final int SLEEP = 5; // 0x5
+    field public static final int UNKNOWN = 0; // 0x0
+    field public static final int VITALS = 6; // 0x6
+  }
+
+  public final class HealthPermissions {
+    field public static final String HEALTH_PERMISSION_GROUP = "android.permission-group.HEALTH";
+    field public static final String MANAGE_HEALTH_PERMISSIONS = "android.permission.MANAGE_HEALTH_PERMISSIONS";
+  }
+
+  public final class UpdateDataOriginPriorityOrderRequest {
+    ctor public UpdateDataOriginPriorityOrderRequest(@NonNull java.util.List<android.healthconnect.datatypes.DataOrigin>, int);
+    method public int getDataCategory();
+    method @NonNull public java.util.List<android.healthconnect.datatypes.DataOrigin> getDataOriginInOrder();
+  }
+
+}
+
+package android.healthconnect.datatypes {
+
+  public abstract class Record {
+    method public int getRecordType();
+  }
+
+  public final class RecordTypeIdentifier {
+    field public static final int RECORD_TYPE_ACTIVE_CALORIES_BURNED = 3; // 0x3
+    field public static final int RECORD_TYPE_BASAL_METABOLIC_RATE = 22; // 0x16
+    field public static final int RECORD_TYPE_CYCLING_PEDALING_CADENCE = 18; // 0x12
+    field public static final int RECORD_TYPE_DISTANCE = 10; // 0xa
+    field public static final int RECORD_TYPE_ELEVATION_GAINED = 5; // 0x5
+    field public static final int RECORD_TYPE_EXERCISE_EVENT = 7; // 0x7
+    field public static final int RECORD_TYPE_EXERCISE_LAP = 2; // 0x2
+    field public static final int RECORD_TYPE_FLOORS_CLIMBED = 8; // 0x8
+    field public static final int RECORD_TYPE_HEART_RATE = 17; // 0x11
+    field public static final int RECORD_TYPE_HYDRATION = 4; // 0x4
+    field public static final int RECORD_TYPE_NUTRITION = 12; // 0xc
+    field public static final int RECORD_TYPE_POWER = 19; // 0x13
+    field public static final int RECORD_TYPE_SLEEP_SESSION = 11; // 0xb
+    field public static final int RECORD_TYPE_SLEEP_STAGE = 14; // 0xe
+    field public static final int RECORD_TYPE_SPEED = 20; // 0x14
+    field public static final int RECORD_TYPE_STEPS = 1; // 0x1
+    field public static final int RECORD_TYPE_STEPS_CADENCE = 21; // 0x15
+    field public static final int RECORD_TYPE_SWIMMING_STROKES = 6; // 0x6
+    field public static final int RECORD_TYPE_TOTAL_CALORIES_BURNED = 13; // 0xd
+    field public static final int RECORD_TYPE_UNKNOWN = 0; // 0x0
+    field public static final int RECORD_TYPE_WHEELCHAIR_PUSHES = 9; // 0x9
+  }
+
+}
+
