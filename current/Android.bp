@@ -7,16 +7,16 @@ package {
 }
 
 prebuilt_bootclasspath_fragment {
-    name: "com.android.healthconnect-bootclasspath-fragment",
+    name: "com.android.healthfitness-bootclasspath-fragment",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
         config_namespace: "ANDROID",
         var_name: "module_build_from_source",
     },
     visibility: ["//packages/modules/HealthConnect:__subpackages__"],
-    apex_available: ["com.android.healthconnect"],
-    licenses: ["healthconnect-module-sdk_Android-Apache-2.0"],
-    contents: ["framework-healthconnect"],
+    apex_available: ["com.android.healthfitness"],
+    licenses: ["healthfitness-module-sdk_Android-Apache-2.0"],
+    contents: ["framework-healthfitness"],
     fragments: [
         {
             apex: "com.android.art",
@@ -34,87 +34,87 @@ prebuilt_bootclasspath_fragment {
 }
 
 java_sdk_library_import {
-    name: "framework-healthconnect",
+    name: "framework-healthfitness",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
         config_namespace: "ANDROID",
         var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
-    apex_available: ["com.android.healthconnect"],
-    licenses: ["healthconnect-module-sdk_Android-Apache-2.0"],
+    apex_available: ["com.android.healthfitness"],
+    licenses: ["healthfitness-module-sdk_Android-Apache-2.0"],
     shared_library: false,
     public: {
-        jars: ["sdk_library/public/framework-healthconnect-stubs.jar"],
-        stub_srcs: ["sdk_library/public/framework-healthconnect.srcjar"],
-        current_api: "sdk_library/public/framework-healthconnect.txt",
-        removed_api: "sdk_library/public/framework-healthconnect-removed.txt",
-        annotations: "sdk_library/public/framework-healthconnect_annotations.zip",
+        jars: ["sdk_library/public/framework-healthfitness-stubs.jar"],
+        stub_srcs: ["sdk_library/public/framework-healthfitness.srcjar"],
+        current_api: "sdk_library/public/framework-healthfitness.txt",
+        removed_api: "sdk_library/public/framework-healthfitness-removed.txt",
+        annotations: "sdk_library/public/framework-healthfitness_annotations.zip",
         sdk_version: "module_current",
     },
     system: {
-        jars: ["sdk_library/system/framework-healthconnect-stubs.jar"],
-        stub_srcs: ["sdk_library/system/framework-healthconnect.srcjar"],
-        current_api: "sdk_library/system/framework-healthconnect.txt",
-        removed_api: "sdk_library/system/framework-healthconnect-removed.txt",
-        annotations: "sdk_library/system/framework-healthconnect_annotations.zip",
+        jars: ["sdk_library/system/framework-healthfitness-stubs.jar"],
+        stub_srcs: ["sdk_library/system/framework-healthfitness.srcjar"],
+        current_api: "sdk_library/system/framework-healthfitness.txt",
+        removed_api: "sdk_library/system/framework-healthfitness-removed.txt",
+        annotations: "sdk_library/system/framework-healthfitness_annotations.zip",
         sdk_version: "module_current",
     },
     module_lib: {
-        jars: ["sdk_library/module-lib/framework-healthconnect-stubs.jar"],
-        stub_srcs: ["sdk_library/module-lib/framework-healthconnect.srcjar"],
-        current_api: "sdk_library/module-lib/framework-healthconnect.txt",
-        removed_api: "sdk_library/module-lib/framework-healthconnect-removed.txt",
-        annotations: "sdk_library/module-lib/framework-healthconnect_annotations.zip",
+        jars: ["sdk_library/module-lib/framework-healthfitness-stubs.jar"],
+        stub_srcs: ["sdk_library/module-lib/framework-healthfitness.srcjar"],
+        current_api: "sdk_library/module-lib/framework-healthfitness.txt",
+        removed_api: "sdk_library/module-lib/framework-healthfitness-removed.txt",
+        annotations: "sdk_library/module-lib/framework-healthfitness_annotations.zip",
         sdk_version: "module_current",
     },
 }
 
 java_sdk_library_import {
-    name: "service-healthconnect",
+    name: "service-healthfitness",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
         config_namespace: "ANDROID",
         var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
-    apex_available: ["com.android.healthconnect"],
-    licenses: ["healthconnect-module-sdk_Android-Apache-2.0"],
+    apex_available: ["com.android.healthfitness"],
+    licenses: ["healthfitness-module-sdk_Android-Apache-2.0"],
     shared_library: false,
     public: {
-        jars: ["sdk_library/public/service-healthconnect-stubs.jar"],
-        stub_srcs: ["sdk_library/public/service-healthconnect.srcjar"],
-        current_api: "sdk_library/public/service-healthconnect.txt",
-        removed_api: "sdk_library/public/service-healthconnect-removed.txt",
-        annotations: "sdk_library/public/service-healthconnect_annotations.zip",
+        jars: ["sdk_library/public/service-healthfitness-stubs.jar"],
+        stub_srcs: ["sdk_library/public/service-healthfitness.srcjar"],
+        current_api: "sdk_library/public/service-healthfitness.txt",
+        removed_api: "sdk_library/public/service-healthfitness-removed.txt",
+        annotations: "sdk_library/public/service-healthfitness_annotations.zip",
         sdk_version: "module_current",
     },
     system_server: {
-        jars: ["sdk_library/system-server/service-healthconnect-stubs.jar"],
-        stub_srcs: ["sdk_library/system-server/service-healthconnect.srcjar"],
-        current_api: "sdk_library/system-server/service-healthconnect.txt",
-        removed_api: "sdk_library/system-server/service-healthconnect-removed.txt",
-        annotations: "sdk_library/system-server/service-healthconnect_annotations.zip",
+        jars: ["sdk_library/system-server/service-healthfitness-stubs.jar"],
+        stub_srcs: ["sdk_library/system-server/service-healthfitness.srcjar"],
+        current_api: "sdk_library/system-server/service-healthfitness.txt",
+        removed_api: "sdk_library/system-server/service-healthfitness-removed.txt",
+        annotations: "sdk_library/system-server/service-healthfitness_annotations.zip",
         sdk_version: "system_server_current",
     },
 }
 
 license {
-    name: "healthconnect-module-sdk_Android-Apache-2.0",
+    name: "healthfitness-module-sdk_Android-Apache-2.0",
     visibility: ["//visibility:private"],
     license_kinds: ["SPDX-license-identifier-Apache-2.0"],
     license_text: ["licenses/build/soong/licenses/LICENSE"],
 }
 
 prebuilt_systemserverclasspath_fragment {
-    name: "com.android.healthconnect-systemserverclasspath-fragment",
+    name: "com.android.healthfitness-systemserverclasspath-fragment",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
         config_namespace: "ANDROID",
         var_name: "module_build_from_source",
     },
     visibility: ["//packages/modules/HealthConnect:__subpackages__"],
-    apex_available: ["com.android.healthconnect"],
-    licenses: ["healthconnect-module-sdk_Android-Apache-2.0"],
-    contents: ["service-healthconnect"],
+    apex_available: ["com.android.healthfitness"],
+    licenses: ["healthfitness-module-sdk_Android-Apache-2.0"],
+    contents: ["service-healthfitness"],
 }
