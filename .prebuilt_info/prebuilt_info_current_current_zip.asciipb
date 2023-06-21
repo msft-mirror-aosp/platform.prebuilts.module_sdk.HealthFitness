@@ -1,14 +1,14 @@
 drops {
   android_build_drop {
-    build_id: "9388295"
-    target: "mainline_modules_sdks-userdebug"
-    source_file: "mainline-sdks/for-latest-build/current/com.google.android.healthconnect/sdk/healthconnect-module-sdk-current.zip"
+    build_id: "T1007089"
+    target: "train_build"
+    source_file: "mainline-sdks/for-UpsideDownCake-build/current/com.google.android.healthfitness/sdk/healthfitness-module-sdk-current.zip"
   }
   dest_file: "current/current.zip"
   version: ""
   version_group: ""
-  git_project: "platform/prebuilts/module_sdk/HealthConnect"
-  git_branch: "master"
+  git_project: "platform/prebuilts/module_sdk/HealthFitness"
+  git_branch: "udc-dev"
   transform: TRANSFORM_UNZIP
   transform_options {
   }
