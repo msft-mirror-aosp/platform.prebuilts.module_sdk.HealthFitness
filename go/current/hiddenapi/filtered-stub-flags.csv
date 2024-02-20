@@ -65,8 +65,8 @@ Landroid/health/connect/HealthConnectException;->ERROR_SECURITY:I,public-api,sys
 Landroid/health/connect/HealthConnectException;->ERROR_UNKNOWN:I,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectException;->ERROR_UNSUPPORTED_OPERATION:I,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectException;->getErrorCode()I,public-api,system-api,test-api
-Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
-Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda1;->accept(Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda0;->accept(Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda1;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectManager$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectManager$10$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
@@ -347,8 +347,8 @@ Landroid/health/connect/aidl/ApplicationInfoResponseParcel$1;->createFromParcel(
 Landroid/health/connect/aidl/ApplicationInfoResponseParcel$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/health/connect/aidl/ApplicationInfoResponseParcel;->describeContents()I,public-api,system-api,test-api
 Landroid/health/connect/aidl/ApplicationInfoResponseParcel;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
-Landroid/health/connect/aidl/DeleteUsingFiltersRequestParcel$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
-Landroid/health/connect/aidl/DeleteUsingFiltersRequestParcel$$ExternalSyntheticLambda1;->applyAsInt(Ljava/lang/Object;)I,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/aidl/DeleteUsingFiltersRequestParcel$$ExternalSyntheticLambda0;->applyAsInt(Ljava/lang/Object;)I,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/aidl/DeleteUsingFiltersRequestParcel$$ExternalSyntheticLambda1;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/aidl/DeleteUsingFiltersRequestParcel$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/health/connect/aidl/DeleteUsingFiltersRequestParcel$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/health/connect/aidl/DeleteUsingFiltersRequestParcel;->describeContents()I,public-api,system-api,test-api
@@ -443,10 +443,10 @@ Landroid/health/connect/aidl/RecordIdFiltersParcel$1;->createFromParcel(Landroid
 Landroid/health/connect/aidl/RecordIdFiltersParcel$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/health/connect/aidl/RecordIdFiltersParcel;->describeContents()I,public-api,system-api,test-api
 Landroid/health/connect/aidl/RecordIdFiltersParcel;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
-Landroid/health/connect/aidl/RecordTypeInfoResponseParcel$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
-Landroid/health/connect/aidl/RecordTypeInfoResponseParcel$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/aidl/RecordTypeInfoResponseParcel$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/aidl/RecordTypeInfoResponseParcel$$ExternalSyntheticLambda1;->accept(Ljava/lang/Object;Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/aidl/RecordTypeInfoResponseParcel$$ExternalSyntheticLambda2;->accept(Ljava/lang/Object;Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
-Landroid/health/connect/aidl/RecordTypeInfoResponseParcel$$ExternalSyntheticLambda3;->accept(Ljava/lang/Object;Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/aidl/RecordTypeInfoResponseParcel$$ExternalSyntheticLambda3;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/aidl/RecordTypeInfoResponseParcel$$ExternalSyntheticLambda4;->accept(Ljava/lang/Object;Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/aidl/RecordTypeInfoResponseParcel$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/health/connect/aidl/RecordTypeInfoResponseParcel$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
