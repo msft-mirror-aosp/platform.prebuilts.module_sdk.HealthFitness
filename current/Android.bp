@@ -14,10 +14,10 @@ package {
 
 prebuilt_bootclasspath_fragment {
     name: "com.android.healthfitness-bootclasspath-fragment",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
+    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "healthfitness_module" is true.
     use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
+        config_namespace: "healthfitness_module",
+        var_name: "source_build",
     },
     visibility: ["//packages/modules/HealthFitness:__subpackages__"],
     apex_available: ["com.android.healthfitness"],
@@ -41,10 +41,10 @@ prebuilt_bootclasspath_fragment {
 
 java_sdk_library_import {
     name: "framework-healthfitness",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
+    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "healthfitness_module" is true.
     use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
+        config_namespace: "healthfitness_module",
+        var_name: "source_build",
     },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.healthfitness"],
@@ -78,10 +78,10 @@ java_sdk_library_import {
 
 java_sdk_library_import {
     name: "service-healthfitness",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
+    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "healthfitness_module" is true.
     use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
+        config_namespace: "healthfitness_module",
+        var_name: "source_build",
     },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.healthfitness"],
@@ -114,10 +114,10 @@ license {
 
 prebuilt_systemserverclasspath_fragment {
     name: "com.android.healthfitness-systemserverclasspath-fragment",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
+    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "healthfitness_module" is true.
     use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
+        config_namespace: "healthfitness_module",
+        var_name: "source_build",
     },
     visibility: ["//packages/modules/HealthFitness:__subpackages__"],
     apex_available: ["com.android.healthfitness"],

@@ -265,6 +265,9 @@ Landroid/health/connect/LocalTimeRangeFilter;->getEndTime()Ljava/time/LocalDateT
 Landroid/health/connect/LocalTimeRangeFilter;->getStartTime()Ljava/time/LocalDateTime;,public-api,sdk,system-api,test-api
 Landroid/health/connect/LocalTimeRangeFilter;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/health/connect/LocalTimeRangeFilter;->isBounded()Z,public-api,sdk,system-api,test-api
+Landroid/health/connect/PageTokenWrapper;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/health/connect/PageTokenWrapper;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/health/connect/PageTokenWrapper;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/health/connect/ReadRecordsRequest;->getRecordType()Ljava/lang/Class;,public-api,sdk,system-api,test-api
 Landroid/health/connect/ReadRecordsRequestUsingFilters$Builder;-><init>(Ljava/lang/Class;)V,public-api,sdk,system-api,test-api
 Landroid/health/connect/ReadRecordsRequestUsingFilters$Builder;->addDataOrigins(Landroid/health/connect/datatypes/DataOrigin;)Landroid/health/connect/ReadRecordsRequestUsingFilters$Builder;,public-api,sdk,system-api,test-api
@@ -353,6 +356,10 @@ Landroid/health/connect/aidl/DeleteUsingFiltersRequestParcel$1;->createFromParce
 Landroid/health/connect/aidl/DeleteUsingFiltersRequestParcel$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/health/connect/aidl/DeleteUsingFiltersRequestParcel;->describeContents()I,public-api,sdk,system-api,test-api
 Landroid/health/connect/aidl/DeleteUsingFiltersRequestParcel;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
+Landroid/health/connect/aidl/DeletedLogsParcel$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/health/connect/aidl/DeletedLogsParcel$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/health/connect/aidl/DeletedLogsParcel;->describeContents()I,public-api,sdk,system-api,test-api
+Landroid/health/connect/aidl/DeletedLogsParcel;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/health/connect/aidl/GetPriorityResponseParcel$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/health/connect/aidl/GetPriorityResponseParcel$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/health/connect/aidl/GetPriorityResponseParcel$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api

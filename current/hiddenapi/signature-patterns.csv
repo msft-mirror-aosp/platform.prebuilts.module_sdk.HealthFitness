@@ -18,6 +18,7 @@ android/health/connect/HealthPermissions
 android/health/connect/HealthServicesInitializer
 android/health/connect/InsertRecordsResponse
 android/health/connect/LocalTimeRangeFilter
+android/health/connect/PageTokenWrapper
 android/health/connect/ReadRecordsRequest
 android/health/connect/ReadRecordsRequestUsingFilters
 android/health/connect/ReadRecordsRequestUsingIds
@@ -35,6 +36,7 @@ android/health/connect/aidl/AggregateDataRequestParcel
 android/health/connect/aidl/AggregateDataResponseParcel
 android/health/connect/aidl/ApplicationInfoResponseParcel
 android/health/connect/aidl/DeleteUsingFiltersRequestParcel
+android/health/connect/aidl/DeletedLogsParcel
 android/health/connect/aidl/GetPriorityResponseParcel
 android/health/connect/aidl/HealthConnectExceptionParcel
 android/health/connect/aidl/IAccessLogsResponseCallback
