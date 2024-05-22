@@ -1,0 +1,8 @@
+Lcom/android/healthfitness/flags/CustomFeatureFlags;->exportImport()Z,unsupported
+Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecord()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlags;->exportImport()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecord()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlagsImpl;->exportImport()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecord()Z,unsupported
+Lcom/android/healthfitness/flags/Flags;->exportImport()Z,unsupported
+Lcom/android/healthfitness/flags/Flags;->personalHealthRecord()Z,unsupported
