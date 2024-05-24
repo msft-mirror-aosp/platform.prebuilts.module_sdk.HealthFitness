@@ -52,6 +52,10 @@ java_sdk_library_import {
     apex_available: ["com.android.healthfitness"],
     licenses: ["healthfitness-module-sdk_Android-Apache-2.0"],
     shared_library: false,
+    permitted_packages: [
+        "android.health",
+        "com.android.healthfitness.flags",
+    ],
     public: {
         jars: ["sdk_library/public/framework-healthfitness-stubs.jar"],
         stub_srcs: ["sdk_library/public/framework-healthfitness.srcjar"],
@@ -89,6 +93,10 @@ java_sdk_library_import {
     apex_available: ["com.android.healthfitness"],
     licenses: ["healthfitness-module-sdk_Android-Apache-2.0"],
     shared_library: false,
+    permitted_packages: [
+        "com.android.server.healthconnect",
+        "com.android.healthfitness.flags",
+    ],
     public: {
         jars: ["sdk_library/public/service-healthfitness-stubs.jar"],
         stub_srcs: ["sdk_library/public/service-healthfitness.srcjar"],
