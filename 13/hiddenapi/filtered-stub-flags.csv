@@ -280,6 +280,12 @@ Landroid/health/connect/LocalTimeRangeFilter;->isBounded()Z,public-api,system-ap
 Landroid/health/connect/PageTokenWrapper;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/PageTokenWrapper;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/PageTokenWrapper;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/ReadMedicalResourcesRequest$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/health/connect/ReadMedicalResourcesRequest$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/health/connect/ReadMedicalResourcesRequest;->describeContents()I,public-api,system-api,test-api
+Landroid/health/connect/ReadMedicalResourcesRequest;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/ReadMedicalResourcesRequest;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/ReadMedicalResourcesRequest;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/health/connect/ReadRecordsRequest;->getRecordType()Ljava/lang/Class;,public-api,system-api,test-api
 Landroid/health/connect/ReadRecordsRequestUsingFilters$Builder;-><init>(Ljava/lang/Class;)V,public-api,system-api,test-api
 Landroid/health/connect/ReadRecordsRequestUsingFilters$Builder;->addDataOrigins(Landroid/health/connect/datatypes/DataOrigin;)Landroid/health/connect/ReadRecordsRequestUsingFilters$Builder;,public-api,system-api,test-api
@@ -1820,3 +1826,4 @@ Landroid/health/connect/restore/StageRemoteDataRequest;->describeContents()I,pub
 Landroid/health/connect/restore/StageRemoteDataRequest;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api

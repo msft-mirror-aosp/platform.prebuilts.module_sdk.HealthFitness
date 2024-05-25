@@ -20,6 +20,7 @@ android/health/connect/InsertRecordsResponse
 android/health/connect/LocalTimeRangeFilter
 android/health/connect/MedicalIdFilter
 android/health/connect/PageTokenWrapper
+android/health/connect/ReadMedicalResourcesRequest
 android/health/connect/ReadRecordsRequest
 android/health/connect/ReadRecordsRequestUsingFilters
 android/health/connect/ReadRecordsRequestUsingIds
@@ -29,6 +30,7 @@ android/health/connect/RecordTypeInfoResponse
 android/health/connect/TimeInstantRangeFilter
 android/health/connect/TimeRangeFilterHelper
 android/health/connect/UpdateDataOriginPriorityOrderRequest
+android/health/connect/UpsertMedicalResourceRequest
 android/health/connect/accesslog/AccessLog
 android/health/connect/accesslog/AccessLogsResponseParcel
 android/health/connect/aidl/ActivityDatesRequestParcel
