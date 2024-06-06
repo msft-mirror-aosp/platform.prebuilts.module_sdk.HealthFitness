@@ -6,6 +6,7 @@ android/health/connect/AggregateRecordsResponse
 android/health/connect/AggregateResult
 android/health/connect/ApplicationInfoResponse
 android/health/connect/Constants
+android/health/connect/CreateMedicalDataSourceRequest
 android/health/connect/DeleteUsingFiltersRequest
 android/health/connect/FetchDataOriginsPriorityOrderResponse
 android/health/connect/HealthApiVersion
@@ -18,7 +19,11 @@ android/health/connect/HealthPermissions
 android/health/connect/HealthServicesInitializer
 android/health/connect/InsertRecordsResponse
 android/health/connect/LocalTimeRangeFilter
+android/health/connect/MedicalIdFilter
+android/health/connect/MedicalResourceId
 android/health/connect/PageTokenWrapper
+android/health/connect/ReadMedicalResourcesRequest
+android/health/connect/ReadMedicalResourcesResponse
 android/health/connect/ReadRecordsRequest
 android/health/connect/ReadRecordsRequestUsingFilters
 android/health/connect/ReadRecordsRequestUsingIds
@@ -28,6 +33,7 @@ android/health/connect/RecordTypeInfoResponse
 android/health/connect/TimeInstantRangeFilter
 android/health/connect/TimeRangeFilterHelper
 android/health/connect/UpdateDataOriginPriorityOrderRequest
+android/health/connect/UpsertMedicalResourceRequest
 android/health/connect/accesslog/AccessLog
 android/health/connect/accesslog/AccessLogsResponseParcel
 android/health/connect/aidl/ActivityDatesRequestParcel
@@ -56,6 +62,7 @@ android/health/connect/aidl/IMigrationCallback
 android/health/connect/aidl/IReadRecordsResponseCallback
 android/health/connect/aidl/IRecordTypeInfoResponseCallback
 android/health/connect/aidl/InsertRecordsResponseParcel
+android/health/connect/aidl/MedicalIdFiltersParcel
 android/health/connect/aidl/ReadRecordsRequestParcel
 android/health/connect/aidl/ReadRecordsResponseParcel
 android/health/connect/aidl/RecordIdFiltersParcel
@@ -103,6 +110,8 @@ android/health/connect/datatypes/IntermenstrualBleedingRecord
 android/health/connect/datatypes/IntervalRecord
 android/health/connect/datatypes/LeanBodyMassRecord
 android/health/connect/datatypes/MealType
+android/health/connect/datatypes/MedicalDataSource
+android/health/connect/datatypes/MedicalResource
 android/health/connect/datatypes/MenstruationFlowRecord
 android/health/connect/datatypes/MenstruationPeriodRecord
 android/health/connect/datatypes/Metadata
@@ -142,7 +151,11 @@ android/health/connect/datatypes/units/Velocity
 android/health/connect/datatypes/units/Volume
 android/health/connect/datatypes/validation/ExerciseSessionTypesValidation
 android/health/connect/datatypes/validation/ValidationUtils
+android/health/connect/exportimport/ExportImportDocumentProvider
+android/health/connect/exportimport/IQueryDocumentProvidersCallback
+android/health/connect/exportimport/IScheduledExportStatusCallback
 android/health/connect/exportimport/ScheduledExportSettings
+android/health/connect/exportimport/ScheduledExportStatus
 android/health/connect/internal/ParcelUtils
 android/health/connect/internal/datatypes/ActiveCaloriesBurnedRecordInternal
 android/health/connect/internal/datatypes/AppInfoInternal
@@ -173,6 +186,7 @@ android/health/connect/internal/datatypes/InstantRecordInternal
 android/health/connect/internal/datatypes/IntermenstrualBleedingRecordInternal
 android/health/connect/internal/datatypes/IntervalRecordInternal
 android/health/connect/internal/datatypes/LeanBodyMassRecordInternal
+android/health/connect/internal/datatypes/MedicalResourceInternal
 android/health/connect/internal/datatypes/MenstruationFlowRecordInternal
 android/health/connect/internal/datatypes/MenstruationPeriodRecordInternal
 android/health/connect/internal/datatypes/NutritionRecordInternal
@@ -220,3 +234,8 @@ android/health/connect/ratelimiter/RateLimiterException
 android/health/connect/restore/BackupFileNamesSet
 android/health/connect/restore/StageRemoteDataException
 android/health/connect/restore/StageRemoteDataRequest
+com/android/healthfitness/flags/CustomFeatureFlags
+com/android/healthfitness/flags/FakeFeatureFlagsImpl
+com/android/healthfitness/flags/FeatureFlags
+com/android/healthfitness/flags/FeatureFlagsImpl
+com/android/healthfitness/flags/Flags
