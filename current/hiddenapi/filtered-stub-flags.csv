@@ -96,7 +96,8 @@ Landroid/health/connect/HealthConnectManager$21$$ExternalSyntheticLambda0;->run(
 Landroid/health/connect/HealthConnectManager$22$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectManager$23$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectManager$24$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
-Landroid/health/connect/HealthConnectManager$24$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/HealthConnectManager$25$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/HealthConnectManager$25$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectManager$3$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectManager$4$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectManager$5$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
@@ -1692,6 +1693,10 @@ Landroid/health/connect/exportimport/ExportImportDocumentProvider$1;->createFrom
 Landroid/health/connect/exportimport/ExportImportDocumentProvider$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/health/connect/exportimport/ExportImportDocumentProvider;->describeContents()I,public-api,system-api,test-api
 Landroid/health/connect/exportimport/ExportImportDocumentProvider;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
+Landroid/health/connect/exportimport/IImportStatusCallback$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/health/connect/exportimport/IImportStatusCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/health/connect/exportimport/IImportStatusCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/health/connect/exportimport/IImportStatusCallback$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
 Landroid/health/connect/exportimport/IQueryDocumentProvidersCallback$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/health/connect/exportimport/IQueryDocumentProvidersCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/health/connect/exportimport/IQueryDocumentProvidersCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
@@ -1700,6 +1705,10 @@ Landroid/health/connect/exportimport/IScheduledExportStatusCallback$Default;->as
 Landroid/health/connect/exportimport/IScheduledExportStatusCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/health/connect/exportimport/IScheduledExportStatusCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/health/connect/exportimport/IScheduledExportStatusCallback$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
+Landroid/health/connect/exportimport/ImportStatus$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/health/connect/exportimport/ImportStatus$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/health/connect/exportimport/ImportStatus;->describeContents()I,public-api,system-api,test-api
+Landroid/health/connect/exportimport/ImportStatus;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/health/connect/exportimport/ScheduledExportSettings$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/health/connect/exportimport/ScheduledExportSettings$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/health/connect/exportimport/ScheduledExportSettings;->describeContents()I,public-api,system-api,test-api
