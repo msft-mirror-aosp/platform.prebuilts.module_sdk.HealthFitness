@@ -300,6 +300,7 @@ Landroid/health/connect/ReadMedicalResourcesRequest$1;->newArray(I)[Ljava/lang/O
 Landroid/health/connect/ReadMedicalResourcesRequest;->describeContents()I,public-api,system-api,test-api
 Landroid/health/connect/ReadMedicalResourcesRequest;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/ReadMedicalResourcesRequest;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/ReadMedicalResourcesRequest;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/ReadMedicalResourcesRequest;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/health/connect/ReadMedicalResourcesResponse$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/health/connect/ReadMedicalResourcesResponse$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
@@ -1151,6 +1152,8 @@ Landroid/health/connect/datatypes/Metadata;->getId()Ljava/lang/String;,public-ap
 Landroid/health/connect/datatypes/Metadata;->getLastModifiedTime()Ljava/time/Instant;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/Metadata;->getRecordingMethod()I,public-api,system-api,test-api
 Landroid/health/connect/datatypes/Metadata;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/datatypes/MindfulnessSessionRecord;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/datatypes/MindfulnessSessionRecord;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/datatypes/NutritionRecord$Builder;-><init>(Landroid/health/connect/datatypes/Metadata;Ljava/time/Instant;Ljava/time/Instant;)V,public-api,system-api,test-api
 Landroid/health/connect/datatypes/NutritionRecord$Builder;->build()Landroid/health/connect/datatypes/NutritionRecord;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/NutritionRecord$Builder;->clearEndZoneOffset()Landroid/health/connect/datatypes/NutritionRecord$Builder;,public-api,system-api,test-api
@@ -1862,3 +1865,4 @@ Landroid/health/connect/restore/StageRemoteDataRequest;->writeToParcel(Landroid/
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
