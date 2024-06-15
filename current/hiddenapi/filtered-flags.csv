@@ -348,6 +348,12 @@ Landroid/health/connect/TimeInstantRangeFilter;->isBounded()Z,public-api,sdk,sys
 Landroid/health/connect/UpdateDataOriginPriorityOrderRequest;-><init>(Ljava/util/List;I)V,sdk,system-api,test-api
 Landroid/health/connect/UpdateDataOriginPriorityOrderRequest;->getDataCategory()I,sdk,system-api,test-api
 Landroid/health/connect/UpdateDataOriginPriorityOrderRequest;->getDataOriginInOrder()Ljava/util/List;,sdk,system-api,test-api
+Landroid/health/connect/UpsertMedicalResourceRequest$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/health/connect/UpsertMedicalResourceRequest$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/health/connect/UpsertMedicalResourceRequest;->describeContents()I,public-api,sdk,system-api,test-api
+Landroid/health/connect/UpsertMedicalResourceRequest;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/health/connect/UpsertMedicalResourceRequest;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/health/connect/UpsertMedicalResourceRequest;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/health/connect/accesslog/AccessLog$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/health/connect/accesslog/AccessLog$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/health/connect/accesslog/AccessLog$OperationType;->OPERATION_TYPE_DELETE:I,sdk,system-api,test-api
