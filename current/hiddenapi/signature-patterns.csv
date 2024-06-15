@@ -219,6 +219,7 @@ android/health/connect/internal/datatypes/WheelchairPushesRecordInternal
 android/health/connect/internal/datatypes/utils/AggregationTypeIdMapper
 android/health/connect/internal/datatypes/utils/BundleUtils
 android/health/connect/internal/datatypes/utils/InternalExternalRecordConverter
+android/health/connect/internal/datatypes/utils/MedicalResourceTypePermissionCategoryMapper
 android/health/connect/internal/datatypes/utils/ParcelRecordConverter
 android/health/connect/internal/datatypes/utils/RecordMapper
 android/health/connect/internal/datatypes/utils/RecordTypePermissionCategoryMapper
