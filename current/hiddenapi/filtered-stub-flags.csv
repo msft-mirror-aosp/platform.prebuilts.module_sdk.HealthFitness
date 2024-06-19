@@ -72,11 +72,10 @@ Landroid/health/connect/HealthConnectException;->ERROR_SECURITY:I,public-api,sys
 Landroid/health/connect/HealthConnectException;->ERROR_UNKNOWN:I,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectException;->ERROR_UNSUPPORTED_OPERATION:I,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectException;->getErrorCode()I,public-api,system-api,test-api
-Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
-Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda1;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
-Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda2;->accept(Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
-Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda3;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
-Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda4;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda1;->accept(Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda2;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/HealthConnectManager$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectManager$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectManager$10$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/HealthConnectManager$11$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
@@ -472,10 +471,6 @@ Landroid/health/connect/aidl/IMigrationCallback$Default;->asBinder()Landroid/os/
 Landroid/health/connect/aidl/IMigrationCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/health/connect/aidl/IMigrationCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/health/connect/aidl/IMigrationCallback$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
-Landroid/health/connect/aidl/IReadMedicalResourcesResponseCallback$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Landroid/health/connect/aidl/IReadMedicalResourcesResponseCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Landroid/health/connect/aidl/IReadMedicalResourcesResponseCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Landroid/health/connect/aidl/IReadMedicalResourcesResponseCallback$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
 Landroid/health/connect/aidl/IReadRecordsResponseCallback$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/health/connect/aidl/IReadRecordsResponseCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/health/connect/aidl/IReadRecordsResponseCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
