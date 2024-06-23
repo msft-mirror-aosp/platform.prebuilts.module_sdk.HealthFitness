@@ -60,6 +60,7 @@ android/health/connect/aidl/IGetPriorityResponseCallback
 android/health/connect/aidl/IHealthConnectService
 android/health/connect/aidl/IInsertRecordsResponseCallback
 android/health/connect/aidl/IMigrationCallback
+android/health/connect/aidl/IReadMedicalResourcesResponseCallback
 android/health/connect/aidl/IReadRecordsResponseCallback
 android/health/connect/aidl/IRecordTypeInfoResponseCallback
 android/health/connect/aidl/InsertRecordsResponseParcel
