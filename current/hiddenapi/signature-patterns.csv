@@ -20,6 +20,7 @@ android/health/connect/HealthServicesInitializer
 android/health/connect/InsertRecordsResponse
 android/health/connect/LocalTimeRangeFilter
 android/health/connect/MedicalIdFilter
+android/health/connect/MedicalPermissionCategory
 android/health/connect/MedicalResourceId
 android/health/connect/PageTokenWrapper
 android/health/connect/ReadMedicalResourcesRequest
@@ -59,6 +60,7 @@ android/health/connect/aidl/IGetPriorityResponseCallback
 android/health/connect/aidl/IHealthConnectService
 android/health/connect/aidl/IInsertRecordsResponseCallback
 android/health/connect/aidl/IMigrationCallback
+android/health/connect/aidl/IReadMedicalResourcesResponseCallback
 android/health/connect/aidl/IReadRecordsResponseCallback
 android/health/connect/aidl/IRecordTypeInfoResponseCallback
 android/health/connect/aidl/InsertRecordsResponseParcel
@@ -115,6 +117,7 @@ android/health/connect/datatypes/MedicalResource
 android/health/connect/datatypes/MenstruationFlowRecord
 android/health/connect/datatypes/MenstruationPeriodRecord
 android/health/connect/datatypes/Metadata
+android/health/connect/datatypes/MindfulnessSessionRecord
 android/health/connect/datatypes/NutritionRecord
 android/health/connect/datatypes/OvulationTestRecord
 android/health/connect/datatypes/OxygenSaturationRecord
@@ -152,8 +155,10 @@ android/health/connect/datatypes/units/Volume
 android/health/connect/datatypes/validation/ExerciseSessionTypesValidation
 android/health/connect/datatypes/validation/ValidationUtils
 android/health/connect/exportimport/ExportImportDocumentProvider
+android/health/connect/exportimport/IImportStatusCallback
 android/health/connect/exportimport/IQueryDocumentProvidersCallback
 android/health/connect/exportimport/IScheduledExportStatusCallback
+android/health/connect/exportimport/ImportStatus
 android/health/connect/exportimport/ScheduledExportSettings
 android/health/connect/exportimport/ScheduledExportStatus
 android/health/connect/internal/ParcelUtils
@@ -189,6 +194,7 @@ android/health/connect/internal/datatypes/LeanBodyMassRecordInternal
 android/health/connect/internal/datatypes/MedicalResourceInternal
 android/health/connect/internal/datatypes/MenstruationFlowRecordInternal
 android/health/connect/internal/datatypes/MenstruationPeriodRecordInternal
+android/health/connect/internal/datatypes/MindfulnessSessionRecordInternal
 android/health/connect/internal/datatypes/NutritionRecordInternal
 android/health/connect/internal/datatypes/OvulationTestRecordInternal
 android/health/connect/internal/datatypes/OxygenSaturationRecordInternal
@@ -214,6 +220,7 @@ android/health/connect/internal/datatypes/WheelchairPushesRecordInternal
 android/health/connect/internal/datatypes/utils/AggregationTypeIdMapper
 android/health/connect/internal/datatypes/utils/BundleUtils
 android/health/connect/internal/datatypes/utils/InternalExternalRecordConverter
+android/health/connect/internal/datatypes/utils/MedicalResourceTypePermissionCategoryMapper
 android/health/connect/internal/datatypes/utils/ParcelRecordConverter
 android/health/connect/internal/datatypes/utils/RecordMapper
 android/health/connect/internal/datatypes/utils/RecordTypePermissionCategoryMapper
