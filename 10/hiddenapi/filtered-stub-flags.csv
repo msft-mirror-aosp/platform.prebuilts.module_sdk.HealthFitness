@@ -1,10 +1,12 @@
 Landroid/health/connect/AggregateRecordsGroupedByDurationResponse$$ExternalSyntheticLambda0;->accept(Ljava/lang/Object;Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/AggregateRecordsGroupedByDurationResponse;->get(Landroid/health/connect/datatypes/AggregationType;)Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/health/connect/AggregateRecordsGroupedByDurationResponse;->getDataOrigins(Landroid/health/connect/datatypes/AggregationType;)Ljava/util/Set;,public-api,system-api,test-api
 Landroid/health/connect/AggregateRecordsGroupedByDurationResponse;->getEndTime()Ljava/time/Instant;,public-api,system-api,test-api
 Landroid/health/connect/AggregateRecordsGroupedByDurationResponse;->getStartTime()Ljava/time/Instant;,public-api,system-api,test-api
 Landroid/health/connect/AggregateRecordsGroupedByDurationResponse;->getZoneOffset(Landroid/health/connect/datatypes/AggregationType;)Ljava/time/ZoneOffset;,public-api,system-api,test-api
 Landroid/health/connect/AggregateRecordsGroupedByPeriodResponse$$ExternalSyntheticLambda0;->accept(Ljava/lang/Object;Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/AggregateRecordsGroupedByPeriodResponse;->get(Landroid/health/connect/datatypes/AggregationType;)Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/health/connect/AggregateRecordsGroupedByPeriodResponse;->getDataOrigins(Landroid/health/connect/datatypes/AggregationType;)Ljava/util/Set;,public-api,system-api,test-api
 Landroid/health/connect/AggregateRecordsGroupedByPeriodResponse;->getEndTime()Ljava/time/LocalDateTime;,public-api,system-api,test-api
 Landroid/health/connect/AggregateRecordsGroupedByPeriodResponse;->getStartTime()Ljava/time/LocalDateTime;,public-api,system-api,test-api
 Landroid/health/connect/AggregateRecordsGroupedByPeriodResponse;->getZoneOffset(Landroid/health/connect/datatypes/AggregationType;)Ljava/time/ZoneOffset;,public-api,system-api,test-api
@@ -563,6 +565,12 @@ Landroid/health/connect/datatypes/BloodPressureRecord$Builder;-><init>(Landroid/
 Landroid/health/connect/datatypes/BloodPressureRecord$Builder;->build()Landroid/health/connect/datatypes/BloodPressureRecord;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/BloodPressureRecord$Builder;->clearZoneOffset()Landroid/health/connect/datatypes/BloodPressureRecord$Builder;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/BloodPressureRecord$Builder;->setZoneOffset(Ljava/time/ZoneOffset;)Landroid/health/connect/datatypes/BloodPressureRecord$Builder;,public-api,system-api,test-api
+Landroid/health/connect/datatypes/BloodPressureRecord;->DIASTOLIC_AVG:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
+Landroid/health/connect/datatypes/BloodPressureRecord;->DIASTOLIC_MAX:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
+Landroid/health/connect/datatypes/BloodPressureRecord;->DIASTOLIC_MIN:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
+Landroid/health/connect/datatypes/BloodPressureRecord;->SYSTOLIC_AVG:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
+Landroid/health/connect/datatypes/BloodPressureRecord;->SYSTOLIC_MAX:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
+Landroid/health/connect/datatypes/BloodPressureRecord;->SYSTOLIC_MIN:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/BloodPressureRecord;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/datatypes/BloodPressureRecord;->getBodyPosition()I,public-api,system-api,test-api
 Landroid/health/connect/datatypes/BloodPressureRecord;->getDiastolic()Landroid/health/connect/datatypes/units/Pressure;,public-api,system-api,test-api
@@ -640,6 +648,9 @@ Landroid/health/connect/datatypes/CyclingPedalingCadenceRecord$CyclingPedalingCa
 Landroid/health/connect/datatypes/CyclingPedalingCadenceRecord$CyclingPedalingCadenceRecordSample;->getRevolutionsPerMinute()D,public-api,system-api,test-api
 Landroid/health/connect/datatypes/CyclingPedalingCadenceRecord$CyclingPedalingCadenceRecordSample;->getTime()Ljava/time/Instant;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/CyclingPedalingCadenceRecord$CyclingPedalingCadenceRecordSample;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/datatypes/CyclingPedalingCadenceRecord;->RPM_AVG:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
+Landroid/health/connect/datatypes/CyclingPedalingCadenceRecord;->RPM_MAX:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
+Landroid/health/connect/datatypes/CyclingPedalingCadenceRecord;->RPM_MIN:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/CyclingPedalingCadenceRecord;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/datatypes/CyclingPedalingCadenceRecord;->getSamples()Ljava/util/List;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/CyclingPedalingCadenceRecord;->hashCode()I,core-platform-api,public-api,system-api,test-api
@@ -1092,6 +1103,7 @@ Landroid/health/connect/datatypes/NutritionRecord;->SUGAR_TOTAL:Landroid/health/
 Landroid/health/connect/datatypes/NutritionRecord;->THIAMIN_TOTAL:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/NutritionRecord;->TOTAL_CARBOHYDRATE_TOTAL:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/NutritionRecord;->TOTAL_FAT_TOTAL:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
+Landroid/health/connect/datatypes/NutritionRecord;->TRANS_FAT_TOTAL:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/NutritionRecord;->UNSATURATED_FAT_TOTAL:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/NutritionRecord;->VITAMIN_A_TOTAL:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/NutritionRecord;->VITAMIN_B12_TOTAL:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
@@ -1295,6 +1307,9 @@ Landroid/health/connect/datatypes/SpeedRecord$SpeedRecordSample;->equals(Ljava/l
 Landroid/health/connect/datatypes/SpeedRecord$SpeedRecordSample;->getSpeed()Landroid/health/connect/datatypes/units/Velocity;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/SpeedRecord$SpeedRecordSample;->getTime()Ljava/time/Instant;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/SpeedRecord$SpeedRecordSample;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/datatypes/SpeedRecord;->SPEED_AVG:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
+Landroid/health/connect/datatypes/SpeedRecord;->SPEED_MAX:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
+Landroid/health/connect/datatypes/SpeedRecord;->SPEED_MIN:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/SpeedRecord;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/datatypes/SpeedRecord;->getSamples()Ljava/util/List;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/SpeedRecord;->hashCode()I,core-platform-api,public-api,system-api,test-api
@@ -1310,6 +1325,9 @@ Landroid/health/connect/datatypes/StepsCadenceRecord$StepsCadenceRecordSample;->
 Landroid/health/connect/datatypes/StepsCadenceRecord$StepsCadenceRecordSample;->getRate()D,public-api,system-api,test-api
 Landroid/health/connect/datatypes/StepsCadenceRecord$StepsCadenceRecordSample;->getTime()Ljava/time/Instant;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/StepsCadenceRecord$StepsCadenceRecordSample;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/health/connect/datatypes/StepsCadenceRecord;->STEPS_CADENCE_RATE_AVG:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
+Landroid/health/connect/datatypes/StepsCadenceRecord;->STEPS_CADENCE_RATE_MAX:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
+Landroid/health/connect/datatypes/StepsCadenceRecord;->STEPS_CADENCE_RATE_MIN:Landroid/health/connect/datatypes/AggregationType;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/StepsCadenceRecord;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/health/connect/datatypes/StepsCadenceRecord;->getSamples()Ljava/util/List;,public-api,system-api,test-api
 Landroid/health/connect/datatypes/StepsCadenceRecord;->hashCode()I,core-platform-api,public-api,system-api,test-api
