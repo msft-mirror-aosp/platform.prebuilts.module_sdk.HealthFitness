@@ -10,6 +10,7 @@ android/health/connect/CreateMedicalDataSourceRequest
 android/health/connect/DeleteMedicalResourcesRequest
 android/health/connect/DeleteUsingFiltersRequest
 android/health/connect/FetchDataOriginsPriorityOrderResponse
+android/health/connect/GetMedicalDataSourcesRequest
 android/health/connect/HealthApiVersion
 android/health/connect/HealthConnectDataState
 android/health/connect/HealthConnectException
@@ -20,8 +21,8 @@ android/health/connect/HealthPermissions
 android/health/connect/HealthServicesInitializer
 android/health/connect/InsertRecordsResponse
 android/health/connect/LocalTimeRangeFilter
-android/health/connect/MedicalPermissionCategory
 android/health/connect/MedicalResourceId
+android/health/connect/MedicalResourceTypeInfo
 android/health/connect/PageTokenWrapper
 android/health/connect/ReadMedicalResourcesRequest
 android/health/connect/ReadMedicalResourcesResponse
@@ -60,6 +61,8 @@ android/health/connect/aidl/IGetPriorityResponseCallback
 android/health/connect/aidl/IHealthConnectService
 android/health/connect/aidl/IInsertRecordsResponseCallback
 android/health/connect/aidl/IMedicalDataSourceResponseCallback
+android/health/connect/aidl/IMedicalDataSourcesResponseCallback
+android/health/connect/aidl/IMedicalResourceTypeInfosCallback
 android/health/connect/aidl/IMedicalResourcesResponseCallback
 android/health/connect/aidl/IMigrationCallback
 android/health/connect/aidl/IReadMedicalResourcesResponseCallback
@@ -221,8 +224,12 @@ android/health/connect/internal/datatypes/WeightRecordInternal
 android/health/connect/internal/datatypes/WheelchairPushesRecordInternal
 android/health/connect/internal/datatypes/utils/AggregationTypeIdMapper
 android/health/connect/internal/datatypes/utils/BundleUtils
+android/health/connect/internal/datatypes/utils/DataTypeDescriptor
+android/health/connect/internal/datatypes/utils/DataTypeDescriptors
+android/health/connect/internal/datatypes/utils/FhirResourceTypeStringToIntMapper
+android/health/connect/internal/datatypes/utils/HealthConnectMappings
 android/health/connect/internal/datatypes/utils/InternalExternalRecordConverter
-android/health/connect/internal/datatypes/utils/MedicalResourceTypePermissionCategoryMapper
+android/health/connect/internal/datatypes/utils/MedicalResourceTypePermissionMapper
 android/health/connect/internal/datatypes/utils/ParcelRecordConverter
 android/health/connect/internal/datatypes/utils/RecordMapper
 android/health/connect/internal/datatypes/utils/RecordTypePermissionCategoryMapper
@@ -243,7 +250,9 @@ android/health/connect/ratelimiter/RateLimiterException
 android/health/connect/restore/BackupFileNamesSet
 android/health/connect/restore/StageRemoteDataException
 android/health/connect/restore/StageRemoteDataRequest
+com/android/healthfitness/flags/AconfigFlagHelper
 com/android/healthfitness/flags/CustomFeatureFlags
+com/android/healthfitness/flags/DatabaseVersions
 com/android/healthfitness/flags/FakeFeatureFlagsImpl
 com/android/healthfitness/flags/FeatureFlags
 com/android/healthfitness/flags/FeatureFlagsImpl
