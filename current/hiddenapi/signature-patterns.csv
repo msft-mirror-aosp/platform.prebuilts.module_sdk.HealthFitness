@@ -7,8 +7,10 @@ android/health/connect/AggregateResult
 android/health/connect/ApplicationInfoResponse
 android/health/connect/Constants
 android/health/connect/CreateMedicalDataSourceRequest
+android/health/connect/DeleteMedicalResourcesRequest
 android/health/connect/DeleteUsingFiltersRequest
 android/health/connect/FetchDataOriginsPriorityOrderResponse
+android/health/connect/GetMedicalDataSourcesRequest
 android/health/connect/HealthApiVersion
 android/health/connect/HealthConnectDataState
 android/health/connect/HealthConnectException
@@ -19,9 +21,9 @@ android/health/connect/HealthPermissions
 android/health/connect/HealthServicesInitializer
 android/health/connect/InsertRecordsResponse
 android/health/connect/LocalTimeRangeFilter
-android/health/connect/MedicalIdFilter
 android/health/connect/MedicalPermissionCategory
 android/health/connect/MedicalResourceId
+android/health/connect/MedicalResourceTypeInfoResponse
 android/health/connect/PageTokenWrapper
 android/health/connect/ReadMedicalResourcesRequest
 android/health/connect/ReadMedicalResourcesResponse
@@ -59,12 +61,15 @@ android/health/connect/aidl/IGetHealthConnectMigrationUiStateCallback
 android/health/connect/aidl/IGetPriorityResponseCallback
 android/health/connect/aidl/IHealthConnectService
 android/health/connect/aidl/IInsertRecordsResponseCallback
+android/health/connect/aidl/IMedicalDataSourceResponseCallback
+android/health/connect/aidl/IMedicalDataSourcesResponseCallback
+android/health/connect/aidl/IMedicalResourceTypesInfoResponseCallback
+android/health/connect/aidl/IMedicalResourcesResponseCallback
 android/health/connect/aidl/IMigrationCallback
 android/health/connect/aidl/IReadMedicalResourcesResponseCallback
 android/health/connect/aidl/IReadRecordsResponseCallback
 android/health/connect/aidl/IRecordTypeInfoResponseCallback
 android/health/connect/aidl/InsertRecordsResponseParcel
-android/health/connect/aidl/MedicalIdFiltersParcel
 android/health/connect/aidl/ReadRecordsRequestParcel
 android/health/connect/aidl/ReadRecordsResponseParcel
 android/health/connect/aidl/RecordIdFiltersParcel
@@ -101,6 +106,8 @@ android/health/connect/datatypes/ExerciseSegment
 android/health/connect/datatypes/ExerciseSegmentType
 android/health/connect/datatypes/ExerciseSessionRecord
 android/health/connect/datatypes/ExerciseSessionType
+android/health/connect/datatypes/FhirResource
+android/health/connect/datatypes/FhirVersion
 android/health/connect/datatypes/FloorsClimbedRecord
 android/health/connect/datatypes/HeartRateRecord
 android/health/connect/datatypes/HeartRateVariabilityRmssdRecord
@@ -191,7 +198,6 @@ android/health/connect/internal/datatypes/InstantRecordInternal
 android/health/connect/internal/datatypes/IntermenstrualBleedingRecordInternal
 android/health/connect/internal/datatypes/IntervalRecordInternal
 android/health/connect/internal/datatypes/LeanBodyMassRecordInternal
-android/health/connect/internal/datatypes/MedicalResourceInternal
 android/health/connect/internal/datatypes/MenstruationFlowRecordInternal
 android/health/connect/internal/datatypes/MenstruationPeriodRecordInternal
 android/health/connect/internal/datatypes/MindfulnessSessionRecordInternal
@@ -219,6 +225,10 @@ android/health/connect/internal/datatypes/WeightRecordInternal
 android/health/connect/internal/datatypes/WheelchairPushesRecordInternal
 android/health/connect/internal/datatypes/utils/AggregationTypeIdMapper
 android/health/connect/internal/datatypes/utils/BundleUtils
+android/health/connect/internal/datatypes/utils/DataTypeDescriptor
+android/health/connect/internal/datatypes/utils/DataTypeDescriptors
+android/health/connect/internal/datatypes/utils/FhirResourceTypeStringToIntMapper
+android/health/connect/internal/datatypes/utils/HealthConnectMappings
 android/health/connect/internal/datatypes/utils/InternalExternalRecordConverter
 android/health/connect/internal/datatypes/utils/MedicalResourceTypePermissionCategoryMapper
 android/health/connect/internal/datatypes/utils/ParcelRecordConverter
