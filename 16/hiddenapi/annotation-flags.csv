@@ -43,6 +43,7 @@ Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrReadMedicalResourcesFix
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrUpsertFixParcelSizeCalculation()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrUpsertFixUseSharedMemory()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->readAssetsForDisabledAppsFromPackageManager()Z,unsupported
+Lcom/android/healthfitness/flags/CustomFeatureFlags;->refactorAggregations()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->replaceBodySensorPermissionEnabled()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->activityIntensity()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->activityIntensityDb()Z,unsupported
@@ -89,6 +90,7 @@ Lcom/android/healthfitness/flags/FeatureFlags;->phrReadMedicalResourcesFixQueryL
 Lcom/android/healthfitness/flags/FeatureFlags;->phrUpsertFixParcelSizeCalculation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->phrUpsertFixUseSharedMemory()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->readAssetsForDisabledAppsFromPackageManager()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlags;->refactorAggregations()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->replaceBodySensorPermissionEnabled()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->activityIntensity()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->activityIntensityDb()Z,unsupported
@@ -135,6 +137,7 @@ Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrReadMedicalResourcesFixQu
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrUpsertFixParcelSizeCalculation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrUpsertFixUseSharedMemory()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->readAssetsForDisabledAppsFromPackageManager()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlagsImpl;->refactorAggregations()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->replaceBodySensorPermissionEnabled()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->activityIntensity()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->activityIntensityDb()Z,unsupported
@@ -181,4 +184,5 @@ Lcom/android/healthfitness/flags/Flags;->phrReadMedicalResourcesFixQueryLimit()Z
 Lcom/android/healthfitness/flags/Flags;->phrUpsertFixParcelSizeCalculation()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->phrUpsertFixUseSharedMemory()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->readAssetsForDisabledAppsFromPackageManager()Z,unsupported
+Lcom/android/healthfitness/flags/Flags;->refactorAggregations()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->replaceBodySensorPermissionEnabled()Z,unsupported
