@@ -2254,6 +2254,8 @@ Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda50;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda51;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda52;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda53;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda54;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda7;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api

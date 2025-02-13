@@ -2254,6 +2254,8 @@ Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda50;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda51;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda52;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda53;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda54;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda7;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
@@ -2299,6 +2301,7 @@ Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecordTeleme
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecordUiTelemetry()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirBasicComplexTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirComplexTypeValidation()Z,unsupported
+Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirExtensionValidation()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirOneofValidation()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirPrimitiveTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirStructuralValidation()Z,unsupported
@@ -2310,6 +2313,7 @@ Lcom/android/healthfitness/flags/CustomFeatureFlags;->refactorAggregations()Z,un
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->replaceBodySensorPermissionEnabled()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->singleUserPermissionIntentTracker()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->smoking()Z,unsupported
+Lcom/android/healthfitness/flags/CustomFeatureFlags;->smokingDb()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->symptoms()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->symptomsDb()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->activityIntensity()Z,unsupported
@@ -2352,6 +2356,7 @@ Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecordTelemetryPri
 Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecordUiTelemetry()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirBasicComplexTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirComplexTypeValidation()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirExtensionValidation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirOneofValidation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirPrimitiveTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirStructuralValidation()Z,unsupported
@@ -2363,6 +2368,7 @@ Lcom/android/healthfitness/flags/FeatureFlags;->refactorAggregations()Z,unsuppor
 Lcom/android/healthfitness/flags/FeatureFlags;->replaceBodySensorPermissionEnabled()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->singleUserPermissionIntentTracker()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->smoking()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlags;->smokingDb()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->symptoms()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->symptomsDb()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->activityIntensity()Z,unsupported
@@ -2405,6 +2411,7 @@ Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecordTelemetr
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecordUiTelemetry()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirBasicComplexTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirComplexTypeValidation()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirExtensionValidation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirOneofValidation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirPrimitiveTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirStructuralValidation()Z,unsupported
@@ -2416,6 +2423,7 @@ Lcom/android/healthfitness/flags/FeatureFlagsImpl;->refactorAggregations()Z,unsu
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->replaceBodySensorPermissionEnabled()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->singleUserPermissionIntentTracker()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->smoking()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlagsImpl;->smokingDb()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->symptoms()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->symptomsDb()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->activityIntensity()Z,unsupported
@@ -2458,6 +2466,7 @@ Lcom/android/healthfitness/flags/Flags;->personalHealthRecordTelemetryPrivateWw(
 Lcom/android/healthfitness/flags/Flags;->personalHealthRecordUiTelemetry()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->phrFhirBasicComplexTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->phrFhirComplexTypeValidation()Z,unsupported
+Lcom/android/healthfitness/flags/Flags;->phrFhirExtensionValidation()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->phrFhirOneofValidation()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->phrFhirPrimitiveTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->phrFhirStructuralValidation()Z,unsupported
@@ -2469,5 +2478,6 @@ Lcom/android/healthfitness/flags/Flags;->refactorAggregations()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->replaceBodySensorPermissionEnabled()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->singleUserPermissionIntentTracker()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->smoking()Z,unsupported
+Lcom/android/healthfitness/flags/Flags;->smokingDb()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->symptoms()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->symptomsDb()Z,unsupported

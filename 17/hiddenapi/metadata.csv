@@ -39,6 +39,7 @@ signature
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecordUiTelemetry()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirBasicComplexTypeValidation()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirComplexTypeValidation()Z|
+|Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirExtensionValidation()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirOneofValidation()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirPrimitiveTypeValidation()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirStructuralValidation()Z|
@@ -50,6 +51,7 @@ signature
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->replaceBodySensorPermissionEnabled()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->singleUserPermissionIntentTracker()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->smoking()Z|
+|Lcom/android/healthfitness/flags/CustomFeatureFlags;->smokingDb()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->symptoms()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->symptomsDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->activityIntensity()Z|
@@ -92,6 +94,7 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecordUiTelemetry()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirBasicComplexTypeValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirComplexTypeValidation()Z|
+|Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirExtensionValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirOneofValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirPrimitiveTypeValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirStructuralValidation()Z|
@@ -103,6 +106,7 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlags;->replaceBodySensorPermissionEnabled()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->singleUserPermissionIntentTracker()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->smoking()Z|
+|Lcom/android/healthfitness/flags/FeatureFlags;->smokingDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->symptoms()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->symptomsDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->activityIntensity()Z|
@@ -145,6 +149,7 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecordUiTelemetry()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirBasicComplexTypeValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirComplexTypeValidation()Z|
+|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirExtensionValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirOneofValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirPrimitiveTypeValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirStructuralValidation()Z|
@@ -156,6 +161,7 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->replaceBodySensorPermissionEnabled()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->singleUserPermissionIntentTracker()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->smoking()Z|
+|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->smokingDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->symptoms()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->symptomsDb()Z|
 |Lcom/android/healthfitness/flags/Flags;->activityIntensity()Z|
@@ -198,6 +204,7 @@ signature
 |Lcom/android/healthfitness/flags/Flags;->personalHealthRecordUiTelemetry()Z|
 |Lcom/android/healthfitness/flags/Flags;->phrFhirBasicComplexTypeValidation()Z|
 |Lcom/android/healthfitness/flags/Flags;->phrFhirComplexTypeValidation()Z|
+|Lcom/android/healthfitness/flags/Flags;->phrFhirExtensionValidation()Z|
 |Lcom/android/healthfitness/flags/Flags;->phrFhirOneofValidation()Z|
 |Lcom/android/healthfitness/flags/Flags;->phrFhirPrimitiveTypeValidation()Z|
 |Lcom/android/healthfitness/flags/Flags;->phrFhirStructuralValidation()Z|
@@ -209,5 +216,6 @@ signature
 |Lcom/android/healthfitness/flags/Flags;->replaceBodySensorPermissionEnabled()Z|
 |Lcom/android/healthfitness/flags/Flags;->singleUserPermissionIntentTracker()Z|
 |Lcom/android/healthfitness/flags/Flags;->smoking()Z|
+|Lcom/android/healthfitness/flags/Flags;->smokingDb()Z|
 |Lcom/android/healthfitness/flags/Flags;->symptoms()Z|
 |Lcom/android/healthfitness/flags/Flags;->symptomsDb()Z|
