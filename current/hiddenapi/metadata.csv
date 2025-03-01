@@ -5,6 +5,7 @@ signature
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->architectureImprovement()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->clearCachesAfterSwitchingUser()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->cloudBackupAndRestore()Z|
+|Lcom/android/healthfitness/flags/CustomFeatureFlags;->cloudBackupAndRestoreDb()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->cyclePhases()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->d2dFileDeletionBugFix()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->dependencyInjection()Z|
@@ -61,6 +62,7 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlags;->architectureImprovement()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->clearCachesAfterSwitchingUser()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->cloudBackupAndRestore()Z|
+|Lcom/android/healthfitness/flags/FeatureFlags;->cloudBackupAndRestoreDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->cyclePhases()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->d2dFileDeletionBugFix()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->dependencyInjection()Z|
@@ -117,6 +119,7 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->architectureImprovement()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->clearCachesAfterSwitchingUser()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->cloudBackupAndRestore()Z|
+|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->cloudBackupAndRestoreDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->cyclePhases()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->d2dFileDeletionBugFix()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->dependencyInjection()Z|
@@ -173,6 +176,7 @@ signature
 |Lcom/android/healthfitness/flags/Flags;->architectureImprovement()Z|
 |Lcom/android/healthfitness/flags/Flags;->clearCachesAfterSwitchingUser()Z|
 |Lcom/android/healthfitness/flags/Flags;->cloudBackupAndRestore()Z|
+|Lcom/android/healthfitness/flags/Flags;->cloudBackupAndRestoreDb()Z|
 |Lcom/android/healthfitness/flags/Flags;->cyclePhases()Z|
 |Lcom/android/healthfitness/flags/Flags;->d2dFileDeletionBugFix()Z|
 |Lcom/android/healthfitness/flags/Flags;->dependencyInjection()Z|
