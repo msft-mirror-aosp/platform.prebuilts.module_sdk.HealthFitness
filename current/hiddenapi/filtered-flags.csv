@@ -2259,7 +2259,11 @@ Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda53;-
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda54;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda55;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda56;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda57;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda58;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda59;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda60;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda7;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/healthfitness/flags/CustomFeatureFlags$$ExternalSyntheticLambda8;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
@@ -2279,6 +2283,8 @@ Lcom/android/healthfitness/flags/CustomFeatureFlags;->developmentDatabase()Z,uns
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->ecosystemMetrics()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->ecosystemMetricsDbChanges()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->entriesPagination()Z,unsupported
+Lcom/android/healthfitness/flags/CustomFeatureFlags;->exerciseSegmentWeight()Z,unsupported
+Lcom/android/healthfitness/flags/CustomFeatureFlags;->exerciseSegmentWeightDb()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->exportImport()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->exportImportFastFollow()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->exportImportNiceToHave()Z,unsupported
@@ -2287,6 +2293,7 @@ Lcom/android/healthfitness/flags/CustomFeatureFlags;->extendExportImportTelemetr
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->healthConnectMappings()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->immediateExport()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->infraToGuardDbChanges()Z,unsupported
+Lcom/android/healthfitness/flags/CustomFeatureFlags;->launchOnboardingActivity()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->logcatCensorIae()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->mindfulness()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->newInformationArchitecture()Z,unsupported
@@ -2319,6 +2326,7 @@ Lcom/android/healthfitness/flags/CustomFeatureFlags;->replaceBodySensorPermissio
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->singleUserPermissionIntentTracker()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->smoking()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->smokingDb()Z,unsupported
+Lcom/android/healthfitness/flags/CustomFeatureFlags;->stepTrackingEnabled()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->symptoms()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->symptomsDb()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->activityIntensity()Z,unsupported
@@ -2336,6 +2344,8 @@ Lcom/android/healthfitness/flags/FeatureFlags;->developmentDatabase()Z,unsupport
 Lcom/android/healthfitness/flags/FeatureFlags;->ecosystemMetrics()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->ecosystemMetricsDbChanges()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->entriesPagination()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlags;->exerciseSegmentWeight()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlags;->exerciseSegmentWeightDb()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->exportImport()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->exportImportFastFollow()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->exportImportNiceToHave()Z,unsupported
@@ -2344,6 +2354,7 @@ Lcom/android/healthfitness/flags/FeatureFlags;->extendExportImportTelemetry()Z,u
 Lcom/android/healthfitness/flags/FeatureFlags;->healthConnectMappings()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->immediateExport()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->infraToGuardDbChanges()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlags;->launchOnboardingActivity()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->logcatCensorIae()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->mindfulness()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->newInformationArchitecture()Z,unsupported
@@ -2376,6 +2387,7 @@ Lcom/android/healthfitness/flags/FeatureFlags;->replaceBodySensorPermissionEnabl
 Lcom/android/healthfitness/flags/FeatureFlags;->singleUserPermissionIntentTracker()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->smoking()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->smokingDb()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlags;->stepTrackingEnabled()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->symptoms()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->symptomsDb()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->activityIntensity()Z,unsupported
@@ -2393,6 +2405,8 @@ Lcom/android/healthfitness/flags/FeatureFlagsImpl;->developmentDatabase()Z,unsup
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->ecosystemMetrics()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->ecosystemMetricsDbChanges()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->entriesPagination()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlagsImpl;->exerciseSegmentWeight()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlagsImpl;->exerciseSegmentWeightDb()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->exportImport()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->exportImportFastFollow()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->exportImportNiceToHave()Z,unsupported
@@ -2401,6 +2415,7 @@ Lcom/android/healthfitness/flags/FeatureFlagsImpl;->extendExportImportTelemetry(
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->healthConnectMappings()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->immediateExport()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->infraToGuardDbChanges()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlagsImpl;->launchOnboardingActivity()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->logcatCensorIae()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->mindfulness()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->newInformationArchitecture()Z,unsupported
@@ -2433,6 +2448,7 @@ Lcom/android/healthfitness/flags/FeatureFlagsImpl;->replaceBodySensorPermissionE
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->singleUserPermissionIntentTracker()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->smoking()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->smokingDb()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlagsImpl;->stepTrackingEnabled()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->symptoms()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->symptomsDb()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->activityIntensity()Z,unsupported
@@ -2450,6 +2466,8 @@ Lcom/android/healthfitness/flags/Flags;->developmentDatabase()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->ecosystemMetrics()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->ecosystemMetricsDbChanges()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->entriesPagination()Z,unsupported
+Lcom/android/healthfitness/flags/Flags;->exerciseSegmentWeight()Z,unsupported
+Lcom/android/healthfitness/flags/Flags;->exerciseSegmentWeightDb()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->exportImport()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->exportImportFastFollow()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->exportImportNiceToHave()Z,unsupported
@@ -2458,6 +2476,7 @@ Lcom/android/healthfitness/flags/Flags;->extendExportImportTelemetry()Z,unsuppor
 Lcom/android/healthfitness/flags/Flags;->healthConnectMappings()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->immediateExport()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->infraToGuardDbChanges()Z,unsupported
+Lcom/android/healthfitness/flags/Flags;->launchOnboardingActivity()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->logcatCensorIae()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->mindfulness()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->newInformationArchitecture()Z,unsupported
@@ -2490,5 +2509,6 @@ Lcom/android/healthfitness/flags/Flags;->replaceBodySensorPermissionEnabled()Z,u
 Lcom/android/healthfitness/flags/Flags;->singleUserPermissionIntentTracker()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->smoking()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->smokingDb()Z,unsupported
+Lcom/android/healthfitness/flags/Flags;->stepTrackingEnabled()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->symptoms()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->symptomsDb()Z,unsupported

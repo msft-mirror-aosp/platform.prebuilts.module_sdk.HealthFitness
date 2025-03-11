@@ -14,6 +14,8 @@ signature
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->ecosystemMetrics()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->ecosystemMetricsDbChanges()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->entriesPagination()Z|
+|Lcom/android/healthfitness/flags/CustomFeatureFlags;->exerciseSegmentWeight()Z|
+|Lcom/android/healthfitness/flags/CustomFeatureFlags;->exerciseSegmentWeightDb()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->exportImport()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->exportImportFastFollow()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->exportImportNiceToHave()Z|
@@ -22,6 +24,7 @@ signature
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->healthConnectMappings()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->immediateExport()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->infraToGuardDbChanges()Z|
+|Lcom/android/healthfitness/flags/CustomFeatureFlags;->launchOnboardingActivity()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->logcatCensorIae()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->mindfulness()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->newInformationArchitecture()Z|
@@ -54,6 +57,7 @@ signature
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->singleUserPermissionIntentTracker()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->smoking()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->smokingDb()Z|
+|Lcom/android/healthfitness/flags/CustomFeatureFlags;->stepTrackingEnabled()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->symptoms()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->symptomsDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->activityIntensity()Z|
@@ -71,6 +75,8 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlags;->ecosystemMetrics()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->ecosystemMetricsDbChanges()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->entriesPagination()Z|
+|Lcom/android/healthfitness/flags/FeatureFlags;->exerciseSegmentWeight()Z|
+|Lcom/android/healthfitness/flags/FeatureFlags;->exerciseSegmentWeightDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->exportImport()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->exportImportFastFollow()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->exportImportNiceToHave()Z|
@@ -79,6 +85,7 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlags;->healthConnectMappings()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->immediateExport()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->infraToGuardDbChanges()Z|
+|Lcom/android/healthfitness/flags/FeatureFlags;->launchOnboardingActivity()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->logcatCensorIae()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->mindfulness()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->newInformationArchitecture()Z|
@@ -111,6 +118,7 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlags;->singleUserPermissionIntentTracker()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->smoking()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->smokingDb()Z|
+|Lcom/android/healthfitness/flags/FeatureFlags;->stepTrackingEnabled()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->symptoms()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->symptomsDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->activityIntensity()Z|
@@ -128,6 +136,8 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->ecosystemMetrics()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->ecosystemMetricsDbChanges()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->entriesPagination()Z|
+|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->exerciseSegmentWeight()Z|
+|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->exerciseSegmentWeightDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->exportImport()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->exportImportFastFollow()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->exportImportNiceToHave()Z|
@@ -136,6 +146,7 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->healthConnectMappings()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->immediateExport()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->infraToGuardDbChanges()Z|
+|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->launchOnboardingActivity()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->logcatCensorIae()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->mindfulness()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->newInformationArchitecture()Z|
@@ -168,6 +179,7 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->singleUserPermissionIntentTracker()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->smoking()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->smokingDb()Z|
+|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->stepTrackingEnabled()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->symptoms()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->symptomsDb()Z|
 |Lcom/android/healthfitness/flags/Flags;->activityIntensity()Z|
@@ -185,6 +197,8 @@ signature
 |Lcom/android/healthfitness/flags/Flags;->ecosystemMetrics()Z|
 |Lcom/android/healthfitness/flags/Flags;->ecosystemMetricsDbChanges()Z|
 |Lcom/android/healthfitness/flags/Flags;->entriesPagination()Z|
+|Lcom/android/healthfitness/flags/Flags;->exerciseSegmentWeight()Z|
+|Lcom/android/healthfitness/flags/Flags;->exerciseSegmentWeightDb()Z|
 |Lcom/android/healthfitness/flags/Flags;->exportImport()Z|
 |Lcom/android/healthfitness/flags/Flags;->exportImportFastFollow()Z|
 |Lcom/android/healthfitness/flags/Flags;->exportImportNiceToHave()Z|
@@ -193,6 +207,7 @@ signature
 |Lcom/android/healthfitness/flags/Flags;->healthConnectMappings()Z|
 |Lcom/android/healthfitness/flags/Flags;->immediateExport()Z|
 |Lcom/android/healthfitness/flags/Flags;->infraToGuardDbChanges()Z|
+|Lcom/android/healthfitness/flags/Flags;->launchOnboardingActivity()Z|
 |Lcom/android/healthfitness/flags/Flags;->logcatCensorIae()Z|
 |Lcom/android/healthfitness/flags/Flags;->mindfulness()Z|
 |Lcom/android/healthfitness/flags/Flags;->newInformationArchitecture()Z|
@@ -225,5 +240,6 @@ signature
 |Lcom/android/healthfitness/flags/Flags;->singleUserPermissionIntentTracker()Z|
 |Lcom/android/healthfitness/flags/Flags;->smoking()Z|
 |Lcom/android/healthfitness/flags/Flags;->smokingDb()Z|
+|Lcom/android/healthfitness/flags/Flags;->stepTrackingEnabled()Z|
 |Lcom/android/healthfitness/flags/Flags;->symptoms()Z|
 |Lcom/android/healthfitness/flags/Flags;->symptomsDb()Z|
