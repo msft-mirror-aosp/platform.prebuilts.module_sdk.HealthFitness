@@ -47,6 +47,7 @@ signature
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirExtensionValidation()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirOneofValidation()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirPrimitiveTypeValidation()Z|
+|Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirResourceValidatorUseWeakReference()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirStructuralValidation()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirValidationDisallowEmptyObjectsArrays()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrReadMedicalResourcesFixQueryLimit()Z|
@@ -108,6 +109,7 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirExtensionValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirOneofValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirPrimitiveTypeValidation()Z|
+|Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirResourceValidatorUseWeakReference()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirStructuralValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirValidationDisallowEmptyObjectsArrays()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrReadMedicalResourcesFixQueryLimit()Z|
@@ -169,6 +171,7 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirExtensionValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirOneofValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirPrimitiveTypeValidation()Z|
+|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirResourceValidatorUseWeakReference()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirStructuralValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirValidationDisallowEmptyObjectsArrays()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrReadMedicalResourcesFixQueryLimit()Z|
@@ -230,6 +233,7 @@ signature
 |Lcom/android/healthfitness/flags/Flags;->phrFhirExtensionValidation()Z|
 |Lcom/android/healthfitness/flags/Flags;->phrFhirOneofValidation()Z|
 |Lcom/android/healthfitness/flags/Flags;->phrFhirPrimitiveTypeValidation()Z|
+|Lcom/android/healthfitness/flags/Flags;->phrFhirResourceValidatorUseWeakReference()Z|
 |Lcom/android/healthfitness/flags/Flags;->phrFhirStructuralValidation()Z|
 |Lcom/android/healthfitness/flags/Flags;->phrFhirValidationDisallowEmptyObjectsArrays()Z|
 |Lcom/android/healthfitness/flags/Flags;->phrReadMedicalResourcesFixQueryLimit()Z|
