@@ -41,6 +41,8 @@ Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecordLockSc
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecordTelemetry()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecordTelemetryPrivateWw()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecordUiTelemetry()Z,unsupported
+Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrChangeLogs()Z,unsupported
+Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrChangeLogsDb()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirBasicComplexTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirComplexTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirExtensionValidation()Z,unsupported
@@ -103,6 +105,8 @@ Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecordLockScreenBa
 Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecordTelemetry()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecordTelemetryPrivateWw()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecordUiTelemetry()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlags;->phrChangeLogs()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlags;->phrChangeLogsDb()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirBasicComplexTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirComplexTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirExtensionValidation()Z,unsupported
@@ -165,6 +169,8 @@ Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecordLockScre
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecordTelemetry()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecordTelemetryPrivateWw()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecordUiTelemetry()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrChangeLogs()Z,unsupported
+Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrChangeLogsDb()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirBasicComplexTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirComplexTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirExtensionValidation()Z,unsupported
@@ -227,6 +233,8 @@ Lcom/android/healthfitness/flags/Flags;->personalHealthRecordLockScreenBanner()Z
 Lcom/android/healthfitness/flags/Flags;->personalHealthRecordTelemetry()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->personalHealthRecordTelemetryPrivateWw()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->personalHealthRecordUiTelemetry()Z,unsupported
+Lcom/android/healthfitness/flags/Flags;->phrChangeLogs()Z,unsupported
+Lcom/android/healthfitness/flags/Flags;->phrChangeLogsDb()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->phrFhirBasicComplexTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->phrFhirComplexTypeValidation()Z,unsupported
 Lcom/android/healthfitness/flags/Flags;->phrFhirExtensionValidation()Z,unsupported

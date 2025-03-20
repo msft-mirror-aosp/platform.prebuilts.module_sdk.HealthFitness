@@ -42,6 +42,8 @@ signature
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecordTelemetry()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecordTelemetryPrivateWw()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecordUiTelemetry()Z|
+|Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrChangeLogs()Z|
+|Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrChangeLogsDb()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirBasicComplexTypeValidation()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirComplexTypeValidation()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->phrFhirExtensionValidation()Z|
@@ -104,6 +106,8 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecordTelemetry()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecordTelemetryPrivateWw()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecordUiTelemetry()Z|
+|Lcom/android/healthfitness/flags/FeatureFlags;->phrChangeLogs()Z|
+|Lcom/android/healthfitness/flags/FeatureFlags;->phrChangeLogsDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirBasicComplexTypeValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirComplexTypeValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->phrFhirExtensionValidation()Z|
@@ -166,6 +170,8 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecordTelemetry()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecordTelemetryPrivateWw()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecordUiTelemetry()Z|
+|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrChangeLogs()Z|
+|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrChangeLogsDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirBasicComplexTypeValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirComplexTypeValidation()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->phrFhirExtensionValidation()Z|
@@ -228,6 +234,8 @@ signature
 |Lcom/android/healthfitness/flags/Flags;->personalHealthRecordTelemetry()Z|
 |Lcom/android/healthfitness/flags/Flags;->personalHealthRecordTelemetryPrivateWw()Z|
 |Lcom/android/healthfitness/flags/Flags;->personalHealthRecordUiTelemetry()Z|
+|Lcom/android/healthfitness/flags/Flags;->phrChangeLogs()Z|
+|Lcom/android/healthfitness/flags/Flags;->phrChangeLogsDb()Z|
 |Lcom/android/healthfitness/flags/Flags;->phrFhirBasicComplexTypeValidation()Z|
 |Lcom/android/healthfitness/flags/Flags;->phrFhirComplexTypeValidation()Z|
 |Lcom/android/healthfitness/flags/Flags;->phrFhirExtensionValidation()Z|
