@@ -7,8 +7,6 @@ signature
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->cloudBackupAndRestore()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->cloudBackupAndRestoreDb()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->cyclePhases()Z|
-|Lcom/android/healthfitness/flags/CustomFeatureFlags;->d2dFileDeletionBugFix()Z|
-|Lcom/android/healthfitness/flags/CustomFeatureFlags;->dependencyInjection()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->deprecateExerciseSessionTypeBreathing()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->developmentDatabase()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->ecosystemMetrics()Z|
@@ -29,8 +27,6 @@ signature
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->mindfulness()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->newInformationArchitecture()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->onboarding()Z|
-|Lcom/android/healthfitness/flags/CustomFeatureFlags;->permissionMetrics()Z|
-|Lcom/android/healthfitness/flags/CustomFeatureFlags;->permissionTrackerFixMappingInit()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecord()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecordDatabase()Z|
 |Lcom/android/healthfitness/flags/CustomFeatureFlags;->personalHealthRecordDisableD2d()Z|
@@ -71,8 +67,6 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlags;->cloudBackupAndRestore()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->cloudBackupAndRestoreDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->cyclePhases()Z|
-|Lcom/android/healthfitness/flags/FeatureFlags;->d2dFileDeletionBugFix()Z|
-|Lcom/android/healthfitness/flags/FeatureFlags;->dependencyInjection()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->deprecateExerciseSessionTypeBreathing()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->developmentDatabase()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->ecosystemMetrics()Z|
@@ -93,8 +87,6 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlags;->mindfulness()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->newInformationArchitecture()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->onboarding()Z|
-|Lcom/android/healthfitness/flags/FeatureFlags;->permissionMetrics()Z|
-|Lcom/android/healthfitness/flags/FeatureFlags;->permissionTrackerFixMappingInit()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecord()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecordDatabase()Z|
 |Lcom/android/healthfitness/flags/FeatureFlags;->personalHealthRecordDisableD2d()Z|
@@ -135,8 +127,6 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->cloudBackupAndRestore()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->cloudBackupAndRestoreDb()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->cyclePhases()Z|
-|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->d2dFileDeletionBugFix()Z|
-|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->dependencyInjection()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->deprecateExerciseSessionTypeBreathing()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->developmentDatabase()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->ecosystemMetrics()Z|
@@ -157,8 +147,6 @@ signature
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->mindfulness()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->newInformationArchitecture()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->onboarding()Z|
-|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->permissionMetrics()Z|
-|Lcom/android/healthfitness/flags/FeatureFlagsImpl;->permissionTrackerFixMappingInit()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecord()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecordDatabase()Z|
 |Lcom/android/healthfitness/flags/FeatureFlagsImpl;->personalHealthRecordDisableD2d()Z|
@@ -199,8 +187,6 @@ signature
 |Lcom/android/healthfitness/flags/Flags;->cloudBackupAndRestore()Z|
 |Lcom/android/healthfitness/flags/Flags;->cloudBackupAndRestoreDb()Z|
 |Lcom/android/healthfitness/flags/Flags;->cyclePhases()Z|
-|Lcom/android/healthfitness/flags/Flags;->d2dFileDeletionBugFix()Z|
-|Lcom/android/healthfitness/flags/Flags;->dependencyInjection()Z|
 |Lcom/android/healthfitness/flags/Flags;->deprecateExerciseSessionTypeBreathing()Z|
 |Lcom/android/healthfitness/flags/Flags;->developmentDatabase()Z|
 |Lcom/android/healthfitness/flags/Flags;->ecosystemMetrics()Z|
@@ -221,8 +207,6 @@ signature
 |Lcom/android/healthfitness/flags/Flags;->mindfulness()Z|
 |Lcom/android/healthfitness/flags/Flags;->newInformationArchitecture()Z|
 |Lcom/android/healthfitness/flags/Flags;->onboarding()Z|
-|Lcom/android/healthfitness/flags/Flags;->permissionMetrics()Z|
-|Lcom/android/healthfitness/flags/Flags;->permissionTrackerFixMappingInit()Z|
 |Lcom/android/healthfitness/flags/Flags;->personalHealthRecord()Z|
 |Lcom/android/healthfitness/flags/Flags;->personalHealthRecordDatabase()Z|
 |Lcom/android/healthfitness/flags/Flags;->personalHealthRecordDisableD2d()Z|
